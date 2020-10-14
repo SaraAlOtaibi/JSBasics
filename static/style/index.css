@@ -1,11 +1,13 @@
 * {
     border: 1px dotted red;
+    margin: 0;
 }
 
 #wrapper {
-    width: 970px;
+    width: 985px;
     height: 575px;
-    margin: 0 auto;
+    margin: 0 auto;  
+    background-color: #1b345d;
     /* background-image: url('./../images/jsloups.png');
     background-size: contain;
     background-repeat: no-repeat; */
@@ -21,14 +23,36 @@
     align-content: center;
     padding: 11px 0 11px 15px;
     border-radius: 15px;
+
+}
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+span{
+    color: purple;
+}
+
+a {
+    color: turquoise;
 }
 #left_nav {
     height: 190px;
     width: 170px;
     margin-left: 10px;
-    background-color: cyan;
+    background-color: #2a7d8c;
     opacity: .5;
     display: inline-block;
+    font-size: small;
+    padding: 10px 0px;
+    padding-left: 5px;
+}
+.parentul {
+    padding-left: 19px;
+}
+.nestedul{
+    padding-left: 14px;
 }
 #main_content {
     height: 410px;
@@ -38,9 +62,19 @@
     opacity: .5;
     display: inline-block;
     vertical-align: top;
+    color: white;
+    font-size: small;
+    padding-left: 10px;
+    padding-right: 5px;
+    margin-right: 5px;
+    /* background-image: url('./../images/jsloups.png');
+    background-repeat: no-repeat;
+    background-size: cover;*/
 }
 #footer {
-    height: 45px;
+    height: 36px;
+    padding-top: 20px;
+    padding-left: 10px;;
     margin: 15px 10px 10px 10px;
     background-color: grey;
     opacity: .5;
